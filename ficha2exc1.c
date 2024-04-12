@@ -1,0 +1,3 @@
+/*O problema na linha de código if (n = 2) está relacionado ao uso do operador de atribuição (=) em vez do operador de igualdade (==). Ao usar = em vez de ==, o valor 2 é atribuído à variável n, e a expressão é avaliada como verdadeira. Portanto, o bloco dentro do if será sempre executado, independentemente do valor inserido pelo usuário. Além disso, após a execução dessa linha, o valor da variável n será sempre 2.
+
+Para corrigir isso e verificar se n é igual a 2, é necessário usar o operador de igualdade (==). Dessa forma, a condição será avaliada corretamente, e o bloco dentro do if será executado apenas se o valor de n for igual a 2.*/
